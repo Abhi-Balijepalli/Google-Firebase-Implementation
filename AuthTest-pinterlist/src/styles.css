@@ -1,0 +1,98 @@
+body{
+  background-color: #c5d6f1;
+}
+.App {
+  font-family: sans-serif;
+  padding: 50px;
+  background-color: #c5d6f1;
+}
+
+h1 {
+  margin: 0 0 25px 0;
+  text-align: center;
+  
+}
+
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  border-radius: 5px;
+  max-width: 450px;
+  width: auto;
+  border: none;
+  margin: 0 0 25px 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  padding: 10px;
+}
+
+button {
+  width: 125px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border: none;
+  padding: 7px;
+  text-align: center;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background-color: #4c566a;
+  color: white;
+  font-size: 14px;
+  font-weight: 900;
+  border-radius: 5px;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+.googleBtn {
+  width: 225px;
+  margin: 0 0 50px 0;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.googleBtn img {
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  margin: 0 5px;
+  vertical-align: middle;
+}
+
+.nav {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  justify-content: center;
+  margin: 0 0 30px;
+  padding: 0;
+}
+
+.nav li {
+  margin: 0 5px;
+  background-color: #4c566a8f;
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 5px;
+}
+
+a { 
+  color: inherit; 
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 5px;
+}
