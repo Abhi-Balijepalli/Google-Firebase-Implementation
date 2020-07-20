@@ -2,4 +2,4 @@
 ```
 npm install
 ```
-Authentication through firebase
+Authentication through firebase using React.js
