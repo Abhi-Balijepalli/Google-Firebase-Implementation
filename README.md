@@ -2,5 +2,5 @@
 ```
 npm install
 ```
-npm start
-Authentication through firebase using React.js
+- npm start
+- Authentication through firebase using React.js
